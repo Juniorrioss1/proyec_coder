@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+background-position: -300px 0;
+}
+
+h1 {
+    height: 200px;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+
+.formulario {
+    text-align: right;
+    height: 200px !important
+}
+
+
+
+header {
+    background-color: #ffff00;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 350px;
+
+}
+
+.header-logo2 img {
+    max-width: 500px !important;
+}
+
+/* USO DEL IMPORTANT POR NO DEJARME HACER LOS CAMBIOS ANTERIORMENTE */
+
+.header-logo2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ----------------MAIN---------------- */
+/* --No especifico h2-titulo porque me cambia lo que ya habia realizado anteriormente-- */
+.Titulo {
+    font-size: 50px;
+    width: 900px;
+    text-align: center;
+    height: 100px
+}
+
+.Titulo {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+
+.video {
+    margin-top: 30px;
+    height: 10px;
+    margin-left: -70px;
+    width: 500px;
+    transform: scale(0.2);
+
+}
+
+.p-parrafo1 {
+    height: 300px;
+    padding-top: 460px;
+    width: 750px;
+    font-size: 30px;
+    margin-left: 130px;
+
+}
+
+/*--------- */
+
+.Titulo2 {
+    font-size: 30px;
+    width: 740px;
+    padding-bottom: 20px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -550px;
+    margin-right: 30px;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.list-container li {
+    text-align: left;
+    width: 750px;
+    padding: 10px;
+    padding-right: 150px;
+    font-size: 20px;
+}
+
+.titulo-h3 {
+    font-size: 20px;
+    width: 570px;
+
+}
+
+.imagen1 {
+    width: 600px;
+    margin-right: 150px;
+}
+
+.Formulario2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -100px;
+    padding-bottom: 400px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    padding-left: 130px;
+    font-size: 20px;
+
+}
+
+label {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+/* ----------footer----------- */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e8eb32;
+    padding: 20px;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.footer-social ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social li {
+    margin-right: 10px;
+}
+
+.gmail-icon,
+.footer-social img {
+    width: 20px;
+    height: 20px;
+}
