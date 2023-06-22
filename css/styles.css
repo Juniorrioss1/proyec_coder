@@ -8,7 +8,7 @@ body {
     background-image: url("../img/fondo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-background-position: -300px 0;
+    background-position: -300px 0;
 }
 
 h1 {
@@ -40,11 +40,10 @@ header {
     justify-content: center;
     align-items: end;
     height: 350px;
-
 }
 
 .header-logo2 img {
-    max-width: 500px !important;
+    max-width: 400px !important;
 }
 
 /* USO DEL IMPORTANT POR NO DEJARME HACER LOS CAMBIOS ANTERIORMENTE */
@@ -55,6 +54,38 @@ header {
     left: 50%;
     transform: translateX(-50%);
 }
+
+@media (max-width: 419px) {
+    header {
+        width: 100vw;
+        padding: 10px;
+    }
+
+    .header-logo2 {
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 10px;
+        padding-left: 300px;
+    }
+
+    nav {
+        margin-top: 10px;
+        width: 100%;
+
+    }
+
+    form {
+        margin-top: 10px;
+        width: 100px;
+        padding-left: 100px;
+    }
+
+    h1 {
+        padding-left: 200px;
+    }
+}
+
+
 
 /* ----------------MAIN---------------- */
 /* --No especifico h2-titulo porque me cambia lo que ya habia realizado anteriormente-- */
